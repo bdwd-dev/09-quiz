@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Élève 1",
+      "email": "eleve1@quiz.cg",
+      "streak": 7,
+      "total_points": 450
+    },
+    {
+      "id": 2,
+      "name": "Élève 2",
+      "email": "eleve2@quiz.cg",
+      "streak": 3,
+      "total_points": 280
+    },
+    {
+      "id": 3,
+      "name": "Élève 3",
+      "email": "eleve3@quiz.cg",
+      "streak": 12,
+      "total_points": 720
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la capitale du Congo ?",
+      "options": [
+        "Brazzaville",
+        "Kinshasa",
+        "Pointe-Noire",
+        "Dolisie"
+      ],
+      "answer": 0,
+      "category": "culture",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Combien de pays partagent la frontière du Congo ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "category": "géographie",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Qui a fondé le Congo moderne ?",
+      "options": [
+        "Savorgnan de Brazza",
+        "Léopold II",
+        "de Gaulle",
+        "Bongo"
+      ],
+      "answer": 0,
+      "category": "histoire",
+      "difficulty": "hard"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": 1,
+      "name": "Tournoi Semaine 36",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-14",
+      "prize": "10.000 XAF + 1Go data",
+      "participants": 45,
+      "status": "ongoing"
+    },
+    {
+      "id": 2,
+      "name": "Tournoi Mensuel",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "prize": "50.000 XAF",
+      "participants": 0,
+      "status": "upcoming"
+    }
+  ],
+  "daily_quizzes": [
+    {
+      "id": 1,
+      "date": "2026-09-07",
+      "questions": [
+        1,
+        2,
+        3
+      ],
+      "participants": 28,
+      "avg_score": 65
+    },
+    {
+      "id": 2,
+      "date": "2026-09-06",
+      "questions": [
+        2,
+        3
+      ],
+      "participants": 32,
+      "avg_score": 58
+    }
+  ],
+  "level_tests": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "score": 75,
+      "recommended_level": "intermédiaire",
+      "completed_at": "2026-09-01"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "score": 45,
+      "recommended_level": "débutant",
+      "completed_at": "2026-09-02"
+    }
+  ]
+}
